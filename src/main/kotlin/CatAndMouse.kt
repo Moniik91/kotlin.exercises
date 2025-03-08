@@ -5,11 +5,11 @@ fun catAndMouse(x: Int, y: Int, z: Int) : String {
     val distanceB = (y - z)
 
 //    if (distanceA < distanceB) {
-//        return "Cat A"  // Cat A llega primero
+//        return "Cat A"  
 //    } else if (distanceB < distanceA) {
-//        return "Cat B"  // Cat B llega primero
+//        return "Cat B"  
 //    } else {
-//        return "Mouse C"  // Ambos llegan al mismo tiempo
+//        return "Mouse C" 
 //    }
 
     when{
